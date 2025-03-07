@@ -1,5 +1,5 @@
 - pip install grpcio-tools
-- ```python
+```python
 python -m grpc_tools.protoc -I . ./node.proto --python_out=. --grpc_python_out=. --experimental_allow_proto3_optional
 ```
 - the same for primitives.proto
